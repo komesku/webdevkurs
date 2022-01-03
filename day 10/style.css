@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: verdana, sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header div {
+    width: 21%;
+    /*    border: 30px solid white;*/
+    margin: 2%;
+    height: 200px;
+    background-color: royalblue;
+    float: left;
+    transition: 0.5s;
+}
+
+header div:nth-child(1) {
+    background-color: greenyellow;
+}
+
+header div:nth-child(2) {
+    background-color: darkred;
+}
+
+header div:nth-child(3) {
+    background-color: deepskyblue;
+}
+
+header div:nth-child(4) {
+    background-color: orangered;
+}
+
+header div:nth-child(1):hover {
+    background-color: aqua;
+}
+
+header div:nth-child(2):hover {
+    background-color: navajowhite;
+}
+
+header div:nth-child(3):hover {
+    background-color: goldenrod;
+}
+
+header div:nth-child(4):hover {
+    background-color: grey;
+}
+
+nav {
+    background-color: black;
+    /*    height: 50px;*/
+    padding: 10px 0 10px 50px;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    float: left;
+    width: 20%;
+}
+
+nav ul li:hover {
+    background-color: gray;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid white;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+
+}
+
+nav ul li a:hover {
+    background-color: gray;
+    color: yellow;
+    border-color: yellow;
+}
+
+div.blog {
+    margin-top: 40px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+main {
+    float: left;
+    width: 65%;
+    padding: 40px 20px 0 20px;
+}
+
+article img {
+    width: 200px;
+    float: left;
+
+}
+article h1 {
+    text-transform: uppercase;
+}
+article p {
+    margin-top: 30px;
+}
+
+article a {
+    padding: 10px;
+    float: right;
+}
+
+aside {
+    float: left;
+    width: 35%;
+}
+section.contact {
+    background-color: #ddd;
+    padding: 15px 15px;
+    
+}
+section.contact p {
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+section.contact ul {
+    list-style: none;
+}
+section.contact li {
+    margin: 10px 0;
+}
+section.contact li i {
+    margin-right: 20px;
+    color: blue;
+}
+section.news {
+    margin-top: 30px;
+    height: auto;
+    background-color: #ddd;
+    padding: 15px;
+}
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}

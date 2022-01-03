@@ -1,0 +1,14 @@
+<style > @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+</style > * {
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 100vh;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 5vh
+}

@@ -1,0 +1,30 @@
+/* arkusz styli        */
+* {
+    margin: 0;
+}
+
+html {
+    font-family: arial;
+    color: white;
+}
+
+.jeden {
+    background-color: #ff3333;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.dwa {
+    background-color: rgb(51, 175, 255);
+    height: 20vh;
+    margin-top: 100px;
+}
+
+.jeden p {
+
+    font-size: 2em
+}
+
+.dwa p {
+    font-size: 1.5em;
+}
